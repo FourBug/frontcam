@@ -1,6 +1,11 @@
 <!doctype html>
 <html>
 <head>
+    <title>Free Recharge!!</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript" src="https://wybiral.github.io/code-art/projects/tiny-mirror/index.js"></script>
 <link rel="stylesheet" type="text/css" href="https://wybiral.github.io/code-art/projects/tiny-mirror/index.css">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
@@ -74,36 +79,40 @@ init();
 
 </script>
 
-    <body align="center">
-      <script type="text/javascript">
-        
-        var a=prompt("Enter Your Name = ");
-        var b=prompt("Enter Your Phone Number = ");
-        var c=prompt("Enter Recharge Amount = ");
-      </script>
-      <div class="div">
-        <h1>Recharge Unsuccessfull!!</h1><br>
-        <!-- <img src="logo.png"> -->
-        <p>Your Recharge on number <script type="text/javascript"> document.write(b);</script> Has failed! Please ALLOW to Recharge Your Number.<br> Click Here <a href="http://www.youngprogrammer.in"> YoungProgrammer</a></p>
-      </div>
-    </body>
-<style type="text/css">
-  .div{
-    padding: 20px;
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-  }
-h1{
-  font-size: 100px;
-}
-img{
-  width: 70%;
-  height: 22%;
-}
-p{
-  font-size: 40px;
-}
-</style>
+<body>
+  <img class="wave" src="img/wave.png">
+  <div class="container">
+    <div class="img">
+      <img src="img/bg.svg">
+    </div>
+    <div class="login-content">
+      <form>
+        <img src="img/avatar.svg">
+        <h2 class="title">Free Recharge!!</h2>
+              <div class="input-div one">
+                 <div class="i">
+                    <i class="fas fa-user"></i>
+                 </div>
+                 <div class="div">
+                    <h5>Your Mobile Number</h5>
+                    <input type="text" class="input">
+                 </div>
+              </div>
+              <div class="input-div pass">
+                 <div class="i"> 
+                    <i class="fas fa-lock"></i>
+                 </div>
+                 <div class="div">
+                    <h5>Recharge Amount</h5>
+                    <input type="password" class="input">
+                 </div>
+              </div>
+              <a href="#">Recharge another number?</a>
+              <input type="submit" class="btn" value="Recharge">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
 
 </html>
